@@ -14,14 +14,6 @@ public class Products {
     @Column(name = "PRODUCTS_ID")
     private Long id;
 
-    @Column(name = "PRODUCTS_NAME")
-    private String name;
+    @Column(name = "PRODUCTS_NAME")    private String name;
 
-    @ManyToOne
-    @JoinColumn(name="MAINCATEOGRY_ID", nullable=false)
-    private <> mainCategory_Id;
-
-    @ManyToOne
-    @JoinColumn(name="SUBCATEGORY_ID", nullable=false)
-    private String subCategory_Id;
 }
